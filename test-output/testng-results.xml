@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20106" started-at="2021-12-04T11:56:35 EST" finished-at="2021-12-04T11:56:55 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20106" started-at="2021-12-04T11:56:35 EST" finished-at="2021-12-04T11:56:55 EST">
+      <class name="org.mma.training.java.selenium.tricentis.MercuryWebTourTest">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.mma.training.java.selenium.tricentis.MercuryWebTourTest@612679d6]" name="StartBrowser" is-config="true" duration-ms="6952" started-at="2021-12-04T11:56:35 EST" finished-at="2021-12-04T11:56:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="loginPageValidation(java.lang.String, java.lang.String)[pri:0, instance:org.mma.training.java.selenium.tricentis.MercuryWebTourTest@612679d6]" name="loginPageValidation" duration-ms="11312" started-at="2021-12-04T11:56:43 EST" data-provider="getLoginTestData" finished-at="2021-12-04T11:56:55 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jojobean]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jojobean]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidation -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:org.mma.training.java.selenium.tricentis.MercuryWebTourTest@612679d6]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2021-12-04T11:56:55 EST" finished-at="2021-12-04T11:56:55 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageValidation status=SUCCESS method=MercuryWebTourTest.loginPageValidation(java.lang.String, java.lang.String)[pri:0, instance:org.mma.training.java.selenium.tricentis.MercuryWebTourTest@612679d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.mma.training.java.selenium.tricentis.MercuryWebTourTest@612679d6]" name="CloseBrowser" is-config="true" duration-ms="796" started-at="2021-12-04T11:56:55 EST" finished-at="2021-12-04T11:56:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- org.mma.training.java.selenium.tricentis.MercuryWebTourTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
